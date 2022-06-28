@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Start" />
+    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Start">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +46,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -52,7 +55,25 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RunTest">
+  <component name="RunManager" selected="Cucumber Java.All Features in: Curso_API_Yaman">
+    <configuration name="All Features in: Curso_API_Yaman" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Automation/API/Java/Curso_API_Yaman" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Teste Automacao API" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: Curso_API_Yaman" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Teste_Automacao_API" />
       <extension name="coverage">
@@ -85,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.All Features in: Curso_API_Yaman" />
         <item itemvalue="JUnit.RunTest" />
         <item itemvalue="JUnit.RunTest (1)" />
       </list>
@@ -145,6 +167,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Automation/API/Java/Teste Automacao API" />
+      <path value="$PROJECT_DIR$/Automation/API/Java/Curso_API_Yaman" />
+    </ignored-roots>
     <MESSAGE value="Start" />
     <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
