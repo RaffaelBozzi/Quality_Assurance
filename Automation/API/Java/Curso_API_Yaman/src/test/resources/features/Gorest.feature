@@ -13,7 +13,36 @@ Funcionalidade: Criar e editar contas de usuários
 #    Então o usuario deve ser criado corretamente
 #    E o status code do request deve ser 200
 
-  Cenario: Cadastrar novo usuário API Gorest
+  @post
+  Cenario: Cadastrar novo usuario API Gorest
     Dado que possuo acesso ao gorest
     Quando envio uma requisicao de cadastro de usuario com dados validos
     Então o usuario deve ser criado corretamente
+
+  @get
+  Cenario: Buscar um usuario existente na API Gorest
+    Dado que possuo acesso ao gorest
+    E existe um usuario cadastrado na api
+    Quando buscar este usuario
+    Então o usuario deve ser retornado corretamente
+
+  @put
+  Cenario: Alterar um usuario existente na API Gorest PUT
+    Dado que possuo acesso ao gorest
+    E existe um usuario cadastrado na api
+    Quando altero os dados deste usuario
+    Então os dados devem ser atualizados corretamente
+
+  @patch
+  Cenario: Alterar um usuario existente na API Gorest Patch
+    Dado que possuo acesso ao gorest
+    E existe um usuario cadastrado na api
+    Quando altero um ou mais dados deste usuario
+    Então os dados devem ser atualizados corretamente
+
+  @delete
+  Cenario: Deletar um usuario existente na API Gorest
+    Dado que possuo acesso ao gorest
+    E existe um usuario cadastrado na api
+    Quando deleto este usuario
+    Então os dados do usuario sao excluidos
