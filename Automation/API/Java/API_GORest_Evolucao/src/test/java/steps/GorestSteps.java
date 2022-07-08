@@ -24,10 +24,7 @@ public class GorestSteps extends APIRequest {
   APIHeaders apiHeaders = new APIHeaders();
   Faker faker = new Faker();
   Random rand = new Random();
-  //  String jsonPath = "src/test/resources/jsons/";
 
-  // *Alternar de acordo com o tipo de solução escolhida
-//  UserConstructor sentData;
   User sentData;
   int userId;
 
@@ -36,21 +33,6 @@ public class GorestSteps extends APIRequest {
   }
 
   private void validaIgualdadeRequestResponse() {
-// *Verificação campo a campo -> usado anteriormente na solução da leitura do arquivo com o body
-//    assertEquals(body.getString("email"), response.jsonPath().getString("email"));
-//    assertEquals(body.getString("name"), response.jsonPath().getString("name"));
-//    assertEquals(body.getString("gender"), response.jsonPath().getString("gender"));
-//    assertEquals(body.getString("status"), response.jsonPath().getString("status"));
-
-// *Verificação usando comparação de objetos -> UserConstructor
-//    UserConstructor receivedData = new UserConstructor(
-//        response.jsonPath().getString("name"),
-//        response.jsonPath().getString("email"),
-//        response.jsonPath().getString("gender"),
-//        response.jsonPath().getString("status")
-//    );
-
-    // *Verificação usando comparação de objetos -> UserLombok
     User receivedData = response.jsonPath().getObject("", User.class);
 
     assertEquals(sentData, receivedData);
@@ -66,28 +48,18 @@ public class GorestSteps extends APIRequest {
     uri = prop.getProperties("uri_gorest");
     headers = apiHeaders.gorestHeaders(token);
 
-// *Solução com leitura do arquivo com o body que se deseja enviar
-//    body = JsonUtils.parseJSONFile(jsonPath + "create-user.json");
-//    body.put("email", faker.internet().emailAddress());
-//    body.put("name", faker.name().fullName());
-
-// *Solução com uso de classe padrão
-//    sentData = new UserConstructor(faker.name().fullName(),
-//        faker.internet().emailAddress(),
-//        (Arrays.asList("male", "female")).get(rand.nextInt(2)),
-//        (Arrays.asList("active", "inactive")).get(rand.nextInt(2)));
-
-// *Solução com o uso de classe com Lombok
     sentData = User.builder()
         .email(faker.internet().emailAddress())
         .name(faker.name().fullName())
-        .gender((Arrays.asList("male", "female")).get(rand.nextInt(2)))
-        .status((Arrays.asList("active", "inactive")).get(rand.nextInt(2)))
+        .gender(User.sorteiaGenero())
+        .status(User.sorteiaStatus())
         .build();
 
     body = new JSONObject(new Gson().toJson(sentData));
 
     POST();
+
+    sentData.setId(response.jsonPath().get("id"));
   }
 
   @Então("o usuario deve ser criado corretamente")
@@ -128,7 +100,7 @@ public class GorestSteps extends APIRequest {
   @Então("os dados devem ser atualizados corretamente")
   public void osDadosDevemSerAtualizadosCorretamente() {
     validaStatusEsperado(200);
-    assertEquals(userId, response.jsonPath().get("id"));
+    assertEquals(Integer.valueOf(userId), response.jsonPath().get("id"));
     validaIgualdadeRequestResponse();
   }
 

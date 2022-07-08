@@ -5,9 +5,10 @@ import lombok.Data;
 
 @Data
 @Builder
-public class Post {
+public class Comment {
   private int id;
-  private int user_id;
-  private String title;
+  private int post_id;
+  private String name;
+  private String email;
   private String body;
 }
