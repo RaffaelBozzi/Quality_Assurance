@@ -4,45 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Clone do projeto do Gorest para criação do projeto piloto de automação de API">
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/Comment$CommentBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/Post$PostBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ToDo$ToDoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ToDo$ToDoStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ToDo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/User$UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/User$UserGender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/User$UserStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/User.class" afterDir="false" />
+    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Melhoria na classe de usuários e adequação do código para os testes existentes">
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/utils/LogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/utils/Relatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ErrorMessage$ErrorMessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ErrorMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/features/Users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/UsersSteps$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/UsersSteps$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/UsersSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/LogConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/api/APIParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/api/APIParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/steps/GorestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/steps/GorestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/steps/GorestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/steps/UsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/resources/features/Gorest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/resources/features/Users.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIHeaders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIVerbos.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/api/APIVerbos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/features/Correios.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/hml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/hml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/runner/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/runner/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/runner/Setup.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/runner/Setup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/CorreiosSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/GorestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/GorestSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/users/UserConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/users/UserLombok$UserLombokBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/users/UserLombok.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/JsonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/LogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/LogUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/PropertiesUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/PropertiesUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/ScenarioUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/ScenarioUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/features/Gorest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/GorestSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657235190777</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Melhoria na classe de usuários e adequação do código para os testes existentes">
+      <created>1657239038060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657239038060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +240,8 @@
     <MESSAGE value="Finalização do curso de automação de API" />
     <MESSAGE value="Criação do projeto piloto de automação de API" />
     <MESSAGE value="Clone do projeto do Gorest para criação do projeto piloto de automação de API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clone do projeto do Gorest para criação do projeto piloto de automação de API" />
+    <MESSAGE value="Melhoria na classe de usuários e adequação do código para os testes existentes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhoria na classe de usuários e adequação do código para os testes existentes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Teste_Automacao_API$RunTest.ic" NAME="RunTest Coverage Results" MODIFIED="1653902646120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
