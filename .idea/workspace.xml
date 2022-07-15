@@ -4,28 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Melhoria na classe de usuários e adequação do código para os testes existentes">
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/elementosAPI/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/utils/LogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/utils/Relatorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ErrorMessage$ErrorMessageBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/elementosAPI/ErrorMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/features/Users.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/UsersSteps$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/UsersSteps$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/UsersSteps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/LogConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/utils/Relatorio.class" afterDir="false" />
+    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres">
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/steps/GorestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/java/steps/UsersSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/resources/features/Gorest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/src/test/resources/features/Users.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/features/Gorest.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/API/Java/API_GORest_Evolucao/target/test-classes/steps/GorestSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,24 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Paulo Carvalho/IdeaProjects/Projetos/Teste Automacao API",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paulo Carvalho/IdeaProjects/Projetos/Teste Automacao API&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Cucumber Java.All Features in: Curso_API_Yaman">
     <configuration name="All Features in: Curso_API_Yaman" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -198,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657239038060</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres">
+      <created>1657426284990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657426284990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +237,8 @@
     <MESSAGE value="Criação do projeto piloto de automação de API" />
     <MESSAGE value="Clone do projeto do Gorest para criação do projeto piloto de automação de API" />
     <MESSAGE value="Melhoria na classe de usuários e adequação do código para os testes existentes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Melhoria na classe de usuários e adequação do código para os testes existentes" />
+    <MESSAGE value="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Teste_Automacao_API$RunTest.ic" NAME="RunTest Coverage Results" MODIFIED="1653902646120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
