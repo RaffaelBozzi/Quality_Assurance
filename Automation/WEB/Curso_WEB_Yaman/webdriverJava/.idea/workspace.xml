@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea5329ac-a682-4db5-9fd8-f78e9730e932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/202207190445removerTelefoneDoUsuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Screenshots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/suporte/Generator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/suporte/Screenshots.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/InformacoesUsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/InformacoesUsuarioTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +46,59 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Paulo Carvalho/IdeaProjects/Quality_Assurance/Automation/WEB/Curso_WEB_Yaman/webdriverJava",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.InformacoesUsuarioTest">
+    <configuration name="InformacoesUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriverJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuarioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InformacoesUsuarioTest.adicionarTelefoneDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriverJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuarioTest" />
+      <option name="METHOD_NAME" value="adicionarTelefoneDoUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InformacoesUsuarioTest.removerTelefoneDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriverJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuarioTest" />
+      <option name="METHOD_NAME" value="removerTelefoneDoUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriverJava" />
       <extension name="coverage">
@@ -65,6 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InformacoesUsuarioTest" />
+        <item itemvalue="JUnit.InformacoesUsuarioTest.adicionarTelefoneDoUsuario" />
+        <item itemvalue="JUnit.InformacoesUsuarioTest.removerTelefoneDoUsuario" />
         <item itemvalue="JUnit.InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" />
       </list>
     </recent_temporary>
