@@ -4,31 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot.">
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/AddContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/MePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/UsuarioHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Web.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioPageObjectsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioTest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/AddContactPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginFormPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/MePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/UsuarioHomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Web.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioPageObjectsTest.class" afterDir="false" />
+    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Implementação da biblioteca easytest para multiplos dados de entrada, uso da técnica PageObjects para execução dos testes automatizados e finalização do curso">
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Java/TaskIt_evolucao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/AddContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/AddContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/MePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/MePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/UsuarioHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/UsuarioHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Screenshots.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Screenshots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioPageObjectsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioPageObjectsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioPageObjectsTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/InformacoesUsuarioPageObjectsTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/InformacoesUsuarioTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/InformacoesUsuarioTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/AddContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/AddContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginFormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/MePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/MePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/UsuarioHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/UsuarioHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Screenshots.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Screenshots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Web.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioPageObjectsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioPageObjectsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,27 +95,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Paulo Carvalho/IdeaProjects/Quality_Assurance/Automation/WEB/Curso_WEB_Yaman/webdriverJava",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paulo Carvalho/IdeaProjects/Projetos/Teste Automacao API&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
-  <component name="Push.Settings">
-    <option name="SHOW_DETAILS_PANEL" value="false" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Paulo Carvalho\IdeaProjects\Quality_Assurance\Automation\WEB\Java" />
+    </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.All Features in: Curso_API_Yaman">
     <configuration name="All Features in: Curso_API_Yaman" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -212,14 +234,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657426284990</updated>
     </task>
-    <task id="LOCAL-00008" summary="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot.">
-      <created>1658259102944</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1658259102944</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +253,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="automacao_web_curso" />
+                        <option value="origin/automacao_web_curso" />
                       </list>
                     </value>
                   </entry>
@@ -263,8 +278,7 @@
     <MESSAGE value="Clone do projeto do Gorest para criação do projeto piloto de automação de API" />
     <MESSAGE value="Melhoria na classe de usuários e adequação do código para os testes existentes" />
     <MESSAGE value="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres" />
-    <MESSAGE value="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot." />
-    <option name="LAST_COMMIT_MESSAGE" value="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Teste_Automacao_API$RunTest.ic" NAME="RunTest Coverage Results" MODIFIED="1653902646120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
