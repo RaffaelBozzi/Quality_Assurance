@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea5329ac-a682-4db5-9fd8-f78e9730e932" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/202207190445removerTelefoneDoUsuario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Screenshots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/suporte/Generator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/suporte/Screenshots.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/UsuarioHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuarioPageObjectsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/InformacoesUsuarioTest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/AddContactPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginFormPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/MePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/UsuarioHomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/suporte/Web.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/InformacoesUsuarioPageObjectsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -47,11 +59,38 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Paulo Carvalho/IdeaProjects/Quality_Assurance/Automation/WEB/Curso_WEB_Yaman/webdriverJava",
+    "last_opened_file_path": "C:/Users/Paulo Carvalho/IdeaProjects/Quality_Assurance/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.InformacoesUsuarioTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Paulo Carvalho\IdeaProjects\Quality_Assurance\Automation\WEB\Curso_WEB_Yaman\webdriverJava\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InformacoesUsuarioPageObjectsTest.adicionarContatoDoUsuario">
+    <configuration name="InformacoesUsuarioPageObjectsTest.adicionarContatoDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriverJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuarioPageObjectsTest" />
+      <option name="METHOD_NAME" value="adicionarContatoDoUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InformacoesUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriverJava" />
       <extension name="coverage">
@@ -67,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InformacoesUsuarioTest.adicionarTelefoneDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InformacoesUsuarioTest.adicionarContatoDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriverJava" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +116,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuarioTest" />
-      <option name="METHOD_NAME" value="adicionarTelefoneDoUsuario" />
+      <option name="METHOD_NAME" value="adicionarContatoDoUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,9 +156,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InformacoesUsuarioTest" />
-        <item itemvalue="JUnit.InformacoesUsuarioTest.adicionarTelefoneDoUsuario" />
+        <item itemvalue="JUnit.InformacoesUsuarioPageObjectsTest.adicionarContatoDoUsuario" />
         <item itemvalue="JUnit.InformacoesUsuarioTest.removerTelefoneDoUsuario" />
+        <item itemvalue="JUnit.InformacoesUsuarioTest.adicionarContatoDoUsuario" />
+        <item itemvalue="JUnit.InformacoesUsuarioTest" />
         <item itemvalue="JUnit.InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" />
       </list>
     </recent_temporary>

@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Inicio do curso de automação web">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/screenshots/202207190445removerTelefoneDoUsuario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Screenshots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Generator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Screenshots.class" afterDir="false" />
+    <list default="true" id="5226953b-4c13-4533-82bb-a22bfb24ac0e" name="Changes" comment="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot.">
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/AddContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/MePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/pages/UsuarioHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/suporte/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/java/tests/InformacoesUsuarioPageObjectsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/src/test/resources/InformacoesUsuarioTest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/InformacoesUsuarioPageObjectsTest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/AddContactPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginFormPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/MePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/pages/UsuarioHomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/suporte/Web.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/target/test-classes/tests/InformacoesUsuarioPageObjectsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/WEB/Curso_WEB_Yaman/webdriverJava/pom.xml" afterDir="false" />
@@ -200,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657426284990</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot.">
+      <created>1658259102944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658259102944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +263,8 @@
     <MESSAGE value="Clone do projeto do Gorest para criação do projeto piloto de automação de API" />
     <MESSAGE value="Melhoria na classe de usuários e adequação do código para os testes existentes" />
     <MESSAGE value="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementados testes negativos da parte de usuários da API - Cadastro com campos vazios ou inválidos e consulta de usuários inexistentes. &#10;Começo do uso do relatório extentReports (Classe utils.Relatorio)&#10;TODO: implementar testes da parte de postagens, comentários e a fazeres" />
+    <MESSAGE value="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Automacao de cadastro e remoção de contato telefonico do usuario.&#10;Evidencia pro screenshot." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Teste_Automacao_API$RunTest.ic" NAME="RunTest Coverage Results" MODIFIED="1653902646120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
