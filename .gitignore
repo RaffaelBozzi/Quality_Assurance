@@ -1,3 +1,22 @@
-/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/chromedriver.exe
-/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/screenshots/
-/Automation/WEB/Java/TaskIt_evolucao/src/test/resources/relatorios/screenshots
+#/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/chromedriver.exe
+#/Automation/WEB/Java/Curso_WEB_Yaman/webdriverJava/screenshots/
+#/Automation/WEB/Java/TaskIt_evolucao/src/test/resources/relatorios/screenshots
+
+### Java and Maven ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Project Reports and Browser Automation drivers ###
+screenshots/
+chromedriver.exe
+report.html

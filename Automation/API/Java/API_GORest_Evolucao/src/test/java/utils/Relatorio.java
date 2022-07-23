@@ -21,6 +21,7 @@ public class Relatorio extends LogConfig implements ConcurrentEventListener {
   private static ExtentTest bdd = null;
   private static String testStepResult = "";
   private int index = 0;
+  final String path = "src/test/resources/report.html";
 
   private String getCurrentTimestamp() {
     SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss:SSS");
@@ -58,7 +59,7 @@ public class Relatorio extends LogConfig implements ConcurrentEventListener {
       testStepResult = event.getResult().getStatus().toString();
       if (extent == null) {
         extent = new ExtentReports();
-        spark = new ExtentSparkReporter("target/report.html");
+        spark = new ExtentSparkReporter(path);
         extent.attachReporter(spark);
       }
       if (extentNomeCenario == null) {

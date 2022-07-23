@@ -3,6 +3,7 @@
 #Version: 1.0
 #Encoding: UTF-8
 
+@AllTests
 @Gorest
 Funcionalidade: Criar e editar contas de usuários na API Gorest
   Eu, como administrador do sistema, quero cadastrar, editar e excluir usuários do sistema
