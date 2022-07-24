@@ -12,16 +12,35 @@ import java.util.Calendar;
 
 public class Relatorio extends LogConfig implements ConcurrentEventListener {
 
-  private String nomeStep;
-  private String nomeCase;
+  private static String nomeStep;
+  private static String nomeCase;
   private static ExtentReports extent = null;
   private static ExtentSparkReporter spark = null;
   private static ExtentTest extentNomeCenario = null;
-  private static ExtentTest extentNomeCenario2 = null;
   private static ExtentTest bdd = null;
   private static String testStepResult = "";
-  private int index = 0;
-  final String path = "src/test/resources/report.html";
+  private static final String path = "src/test/resources/report.html";
+
+  public static void escreverNoRelatorio(String texto, Boolean criarNovoNode) {
+    if (extent == null) {
+      extent = new ExtentReports();
+      spark = new ExtentSparkReporter(path);
+      extent.attachReporter(spark);
+    }
+    if (extentNomeCenario == null) {
+      extentNomeCenario = extent.createTest(nomeCase);
+    }
+    if (criarNovoNode) {
+      bdd = extentNomeCenario.createNode(nomeStep);
+    }
+    if (testStepResult.equals("PASSED")) {
+      bdd.pass(texto);
+    } else {
+      bdd.fail(texto);
+      extentNomeCenario.fail(texto);
+    }
+    extent.flush();
+  }
 
   private String getCurrentTimestamp() {
     SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss:SSS");
@@ -32,13 +51,11 @@ public class Relatorio extends LogConfig implements ConcurrentEventListener {
   private final EventHandler<TestStepStarted> inicioStep = new EventHandler<TestStepStarted>() {
     @Override
     public void receive(TestStepStarted event) {
-      nomeStep = event.getTestStep().toString();
-//      if(index != 0 && index != event.getTestCase().getTestSteps().size()-1) {
-        nomeStep = ((PickleStepTestStep) event.getTestCase().getTestSteps().get(index)).getStep().getKeyword() +
-            ((PickleStepTestStep) event.getTestCase().getTestSteps().get(index)).getStep().getText();
+      if (event.getTestStep() instanceof PickleStepTestStep) {
+        nomeStep = ((PickleStepTestStep) event.getTestStep()).getStep().getKeyword() +
+            ((PickleStepTestStep) event.getTestStep()).getStep().getText();
         System.out.println(logAzul("BDD> " + nomeStep));
-//      }
-      index++;
+      }
     }
   };
 
@@ -53,34 +70,49 @@ public class Relatorio extends LogConfig implements ConcurrentEventListener {
   private final EventHandler<TestStepFinished> fimStep = new EventHandler<TestStepFinished>() {
     @Override
     public void receive(TestStepFinished event) {
-//      if(index == 0 && index == event.getTestCase().getTestSteps().size()-1)
+      if (nomeStep != null) {
+        boolean criarNovoNode = bdd == null || !bdd.getModel().getName().equals(nomeStep);
+        testStepResult = event.getResult().getStatus().toString();
+        escreverNoRelatorio(nomeStep, criarNovoNode);
+      }
+
+      nomeStep = null;
+//      if(nomeStep == null)
 //        return;
-
-      testStepResult = event.getResult().getStatus().toString();
-      if (extent == null) {
-        extent = new ExtentReports();
-        spark = new ExtentSparkReporter(path);
-        extent.attachReporter(spark);
-      }
-      if (extentNomeCenario == null) {
-        extentNomeCenario = extent.createTest(nomeCase);
-        extentNomeCenario2 = extent.createTest(nomeCase);
-        extent.removeTest(nomeCase);
-        bdd = extentNomeCenario2.createNode(nomeStep);
-      }
-      if (testStepResult.equals("PASSED")) {
-        bdd.pass(nomeStep);
-      } else {
-        bdd.fail(event.getResult().getError());
-        extentNomeCenario.fail(event.getResult().getError());
-      }
-
+//
+//      testStepResult = event.getResult().getStatus().toString();
+//      if (extent == null) {
+//        extent = new ExtentReports();
+//        spark = new ExtentSparkReporter(path);
+//        extent.attachReporter(spark);
+//      }
+//      if (extentNomeCenario == null) {
+//        extentNomeCenario = extent.createTest(nomeCase);
+//      }
+//      bdd = extentNomeCenario.createNode(nomeStep);
+//      if (testStepResult.equals("PASSED")) {
+//        if(toPrint.isEmpty()) {
+//          bdd.pass(nomeStep);
+//        }
+//        else {
+//          bdd.pass(toPrint);
+//          toPrint = "";
+//        }
+//      } else {
+//        bdd.fail(event.getResult().getError());
+//        extentNomeCenario.fail(event.getResult().getError());
+//      }
+//      extent.flush();
+//      nomeStep = null;
     }
   };
 
-  private final EventHandler<TestCaseFinished> fimCase = event -> {
-    index = 0;
-    extent.flush();
+  private final EventHandler<TestCaseFinished> fimCase = new EventHandler<TestCaseFinished>() {
+    @Override
+    public void receive(TestCaseFinished event) {
+      extent.flush();
+      extentNomeCenario = null;
+    }
   };
 
   @Override

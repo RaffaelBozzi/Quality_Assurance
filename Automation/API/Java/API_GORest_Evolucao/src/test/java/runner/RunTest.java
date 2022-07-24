@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    plugin = {"pretty:src/test/resources/report.html"},
+//    plugin = {"html:src/test/resources/report.html"},
+    plugin = {"utils.Relatorio"},
     features = {"src/test/resources/features"},
     glue = {"steps", "runner"},
     tags = "@Gorest"
