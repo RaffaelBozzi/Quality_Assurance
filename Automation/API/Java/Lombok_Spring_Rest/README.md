@@ -1,4 +1,6 @@
-Projeto Piloto de automação de testes para API usando rest-assured
+Estudo de técnicas e frameworks para facilitar o desenvolvimento em Java (orientado à objetos)
 
-TODO: implementar o uso do extentreports para geração de relatório.
-      implementar teste de outras funcionalidades da API.
+Frameworks utilizados:
+- Spring 
+- Lombok 
+- Rest / Feing Client
