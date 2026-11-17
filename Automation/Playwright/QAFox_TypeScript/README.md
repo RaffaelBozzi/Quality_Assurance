@@ -1,6 +1,6 @@
 # Estudo de Playwright em Typescript seguindo o curso no youtube https://www.youtube.com/watch?v=iijmmick7XE&list=PLsjUcU8CQXGGV3LzJqIPgZCtoja2zohwo&index=1 
 
-Iniciando um projeto playwright
+## Iniciando um projeto playwright
 ```
 $ npm init playwright@latest
 Need to install the following packages:
@@ -18,12 +18,12 @@ Initializing project in '.'
 √ Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
 ```
 
-Rodando o primeiro teste apenas para o chrome e desabilitando o headless mode
+## Rodando o primeiro teste apenas para o chrome e desabilitando o headless mode
 ```
 npx playwright test --project=chromium --headed
 ```
 
-Exibir relatório com resultados
+## Exibir relatório com resultados
 ```
 npx playwright show-report
 ```
