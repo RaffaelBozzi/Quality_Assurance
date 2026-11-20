@@ -1,3 +1,4 @@
+//aulas 23 e 24 da playlist (https://www.youtube.com/watch?v=yQD8V-nsndQ&list=PLsjUcU8CQXGGV3LzJqIPgZCtoja2zohwo&index=23)
 import { test } from '@playwright/test';
 
 test('locator by alt text', async ({ page }) => {
@@ -47,9 +48,9 @@ test("locator by title", async ({ page }) => {
 });
 
 test("locator by testId", async ({ page }) => {
-    //o atributo buscado no html é, por padrão, o "data-testid". É possível mudar no arquivo de configuração "playwright.config.ts" o atributo buscado
+    //o atributo buscado no html é, por padrão, o "data-testid". É possível mudar no arquivo de configuração "playwright.config.ts" o atributo buscado e é possível atribuir uma lista de valores válidos
     await page.goto("https://arunmotoori.github.io/m10.html");
     await page.getByTestId("fName").fill("Test Name"); //atributo data-testid
-    // await page.getByTestId("lastName").fill("Test Last"); //atributo data-test
-    // await page.getByTestId("emailAddress").fill("test@gmail.com"); //atributo data-qa
+    await page.getByTestId("lastName").fill("Test Last"); //atributo data-test
+    await page.getByTestId("emailAddress").fill("test@gmail.com"); //atributo data-qa
 });

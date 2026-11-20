@@ -1,4 +1,5 @@
-# Estudo de Playwright em Typescript seguindo o curso no youtube https://www.youtube.com/watch?v=iijmmick7XE&list=PLsjUcU8CQXGGV3LzJqIPgZCtoja2zohwo&index=1 
+# Estudo de Playwright em Typescript seguindo o curso no youtube: 
+https://www.youtube.com/watch?v=iijmmick7XE&list=PLsjUcU8CQXGGV3LzJqIPgZCtoja2zohwo&index=1 
 
 ## Iniciando um projeto playwright
 ```
@@ -27,3 +28,4 @@ npx playwright test --project=chromium --headed
 ```
 npx playwright show-report
 ```
+

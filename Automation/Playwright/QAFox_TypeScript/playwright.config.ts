@@ -32,7 +32,7 @@ export default defineConfig({
     trace: 'on-first-retry',
 
     //page.getByTextId normalmente procura pelo atributo data-testid, isso pode ser trocado com este comando
-    // testIdAttribute: 'data-test'
+    testIdAttribute: 'data-testid,data-test,data-qa'
   },
 
   /* Configure projects for major browsers */
